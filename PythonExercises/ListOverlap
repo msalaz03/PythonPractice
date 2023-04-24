@@ -1,0 +1,17 @@
+'''
+Write a program that returns a list that contains only the elements that are common between the lists (without duplicates). 
+Make sure your program works on two lists of different sizes
+'''
+
+list1 = [1,2,3,4,5]
+list2 = [3,6,4,2,3,2,3]
+
+commonlist = []
+
+for num in list1:
+    if num in list2:
+        if num in commonlist:
+            continue
+        else:
+            commonlist.append(num)
+print(commonlist)
