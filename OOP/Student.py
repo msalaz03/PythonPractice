@@ -1,10 +1,16 @@
 class Student:
     
+    #Private Variables ???
+    #Data Encapsulation ???
+    
+    #Constructor
     def __init__(self,name,age,grade):
         self.name = name
         self.age = age
         self.grade = grade # %0 -100
-        
+    
+    
+    #Getters / Setters
     def get_name(self):
         return self.name
     
@@ -23,7 +29,7 @@ class Student:
     def set_grade(self, age):
         self.age = age
         
-    
+#Another Class
 class Course:
         
     def __init__(self, name, max_students):
@@ -34,13 +40,13 @@ class Course:
         self.students = []
         self.is_active = False
         
-        
+    #Methods   
     def add_student(self, student):
         if len(self.students) < self.max_students:
             self.students.append(student)
             return True
         return False
-        
+     
     def get_average_grade(self):
         value = 0
         for student in self.students:
