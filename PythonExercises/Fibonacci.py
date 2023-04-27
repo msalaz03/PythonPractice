@@ -1,5 +1,5 @@
-def Fibonacci():
-    count = int(input("How many fibonacci numbers would you like to generate? "))
+def Fibonacci(count):
+    
     i = 1
     if count == 0:
         fib = []
@@ -15,8 +15,15 @@ def Fibonacci():
 
     return fib
    
+#Recursive but doesn't work for big numbers.   
+def fib(n):
+    
+    if (n<=2): 
+        return 1
+    return fib(n - 1) + fib(n - 2)
 
 
-x = Fibonacci()
-print(x)
+#print(fib(8))
+print(Fibonacci(50))
+
         
