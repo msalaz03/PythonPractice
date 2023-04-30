@@ -1,0 +1,23 @@
+Company Information
+
+Name: Matthew Salazar
+Age: 18
+Phone Number: 705-905-2424
+Name: Chase Keeler
+Age: 18
+Phone Number: 705-252-4321
+Name: Cameron Bauman
+Age: 19
+Phone Number: 249-123-9090
+Name: Adam Garces
+Age: 18
+Phone Number: 249-9090-1229
+Name: Matthew Salazar
+Age: 21
+Phone Number: 705-252-4232
+Name: John Smith
+Age: 25
+Phone Number: 555-555-5555
+Name: Jane Doe
+Age: 30
+Phone Number: 123-456-7890

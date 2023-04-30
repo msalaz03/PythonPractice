@@ -31,5 +31,9 @@ seconds = int(time_str[6:8])
     
 # print(f"{total_max} {total_min}")
 
-#Birthday Cake Candles
+#Grading Students Method
+
+
+         
+   
 
