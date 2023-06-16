@@ -1,4 +1,4 @@
-from main import add_numbers
+from discordbot.main import add_numbers
 
 a = 5
 b = 5
